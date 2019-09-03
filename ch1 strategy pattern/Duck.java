@@ -13,7 +13,7 @@ public abstract class Duck {
         flyBehavior.fly();      //把飞的行为委托给行为类，不在父类中单独定义
     }
     public void performQuack() {
-        quackBehavior.quack();
+        quackBehavior.quack();  //针对接口编程
     }
     public void swim() {
         System.out.println("All ducks float, even decoys");
